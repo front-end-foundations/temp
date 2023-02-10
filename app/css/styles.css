@@ -1,15 +1,15 @@
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700");
+@import url('http://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 body {
   margin: 12px;
   color: #333;
-  font-family: "Lato", Verdana, Arial, sans-serif;
+  font-family: 'Lato', Verdana, Arial, sans-serif;
   line-height: 1.6;
   background-color: #ddd;
 }
 
 header {
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   font-weight: normal;
 }
 
@@ -44,7 +44,7 @@ header h2 {
   text-decoration: none;
   padding: 4px;
   display: block;
-  transition: background-color 0.5s cubic-bezier(0.89, -0.43, 0, 1.2)
+  transition: background-color 0.5s cubic-bezier(0.89, -0.43, 0, 1.2);
 }
 
 .nav a:hover {
@@ -91,7 +91,7 @@ article img {
 }
 
 blockquote::before {
-  content: "“";
+  content: '“';
   font-size: 4rem;
   font-family: serif;
   line-height: 0.1em;
@@ -99,7 +99,7 @@ blockquote::before {
   color: #600;
 }
 
-aside+p::first-line {
+aside + p::first-line {
   font-weight: bold;
   font-size: 16px;
 }
@@ -111,7 +111,7 @@ aside+p::first-line {
   position: relative;
   background-color: #fff;
   padding: 1rem;
-  box-shadow: 0 0 6px 2px #ccc
+  box-shadow: 0 0 6px 2px #ccc;
 }
 
 a {
@@ -172,7 +172,6 @@ a:hover {
     float: none;
     width: 100%;
   }
-
 }
 
 .popover {
@@ -188,6 +187,6 @@ a:hover {
   display: none;
 }
 
-.showme {
+.showme .popover {
   display: block;
 }
